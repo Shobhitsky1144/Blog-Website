@@ -181,3 +181,4 @@ AUTHENTICATION_BACKENDS = [
 SITE_ID = 1
 
 CRISPY_TEMPLATE_PACK='bootstrap4'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage
